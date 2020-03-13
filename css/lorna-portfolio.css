@@ -1,33 +1,41 @@
 body {
     background:black url("../terminal.jpeg") no-repeat fixed center;
 }
-
-.header {
-    width: 100%;
-    height: 280px; 
-    background-color: #1d3030;
-}
-img { 
-    width: 280px;
-    height: 280px; /* makes sure image rescales as display window rescales */ 
-    opacity: 1;
+.btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    cursor: default;
     float: right;
-    border-radius: 50%;
-    position: sticky;
-    object-fit: cover;
+    position: relative;
+    z-index: 999;
   }
-.center {
-    position: sticky;
-    top: 15%;
-    font-family: Kaushan Script;
-    font-size: 80px;
-    color: azure;
-    vertical-align: center;
-    letter-spacing: 2px;
-    margin-top: 20%;
-    margin-left: 5%;
-  }
-.header p {
+.btn-group .button:hover {
+    background-color: black;
+}
+.parent{
     position: relative;
 }
+.over-img{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
 
+.mask{
+    position: relative;
+}
+.centre {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+h1{
+    color: blanchedalmond;
+}
