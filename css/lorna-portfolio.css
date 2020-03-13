@@ -1,5 +1,5 @@
 body {
-    background: gold url("../terminal.jpeg") no-repeat fixed left bottom;
+    background:black url("../terminal.jpeg") no-repeat fixed center;
 }
 
 .header {
@@ -14,6 +14,7 @@ img {
     float: right;
     border-radius: 50%;
     position: sticky;
+    object-fit: cover;
   }
 .center {
     position: sticky;
