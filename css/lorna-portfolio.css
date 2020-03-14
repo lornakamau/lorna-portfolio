@@ -1,41 +1,68 @@
 body {
-    background:black url("../terminal.jpeg") no-repeat fixed center;
+    background:black url("../terminal5.jpg") no-repeat fixed center;
 }
+.header {
+    width: 100%;
+    height: 80px;
+}
+.topleft
+{
+float: left;
+height: 80px;
+}
+.topright
+{
+float: right;
+height: 80px;
+}
+
+.btn-group {
+padding-top: 8%;
+}
+
 .btn-group .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #FE5A07; /* Orange */
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    /*display: inline-block;*/
+    display: inline-block;
     font-size: 16px;
+    font-family: 'Source Serif Pro', serif;
     cursor: default;
-    float: right;
     position: relative;
     z-index: 999;
   }
 .btn-group .button:hover {
     background-color: black;
+    color:  #FE5A07
 }
-.parent{
-    position: relative;
-}
-.over-img{
-    position: absolute;
-    top: 5%;
-    left: 15%;
-}
-
-.mask{
-    position: relative;
-}
-.centre {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    font-size: 18px;
+.btn-group .button a:link {
+    color: white;
+    text-decoration: none;
+  }
+a:active {
+    color: #FE5A07;
+  }
+img{
+    padding-top: 0%;
+    width: 230px;
+    height: 230px;
+    z-index: 999;
 }
 h1{
     color: blanchedalmond;
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 80px;
+    text-align: center;
+}
+h2{
+    color: blanchedalmond;
+    padding-left: 15%;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
 }
