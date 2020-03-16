@@ -1,20 +1,26 @@
 # My Portfolio
-#### This is my portfolio's landing page., 16th March 2020
+#### An online portfolio for Lorna Kamau, 16th March 2020
 #### By **Lorna Kamau**
 ## Description
-This page allows users to know more about me, view my projects and also access my contacts from the tabs present on the page. 
-![Portfolio-landing-page](portfolio-landing-page)
+This is an online portfolio for Lorna Kamau. This webpage provides visitors with insight into who Lorna Kamau is; her interests, hobbies, skills, educational and professional background and most importantly access to projects she's done.
+The webpage's landing page has three buttons on the topright as shown below;
+
+![Portfolio-landing-page](portfolio-landing-page.jpg)
+
+Each tab opens up to another webpage. Here's what each page looks like;
+
+![aboutme-page](aboutme-page.png)
+![projects-page](projects-page.png)
+![contactme-page](contactme-page.png)
+
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+To view My Portfolio, do the following;
+1. Check that your internet connection is active.
+2. Click on this link https://lornakamau.github.io/lorna-portfolio/. Doing so will redirect you to my portfolio's landing page.
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+This project is written in HTML and CSS.
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+Should you be unable to access my portfolio, have any recommendations or questions, feel free to email me; kamaulorna@gmail.com.
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+*MIT
+Copyright (c) 2020 **Lorna Kamau**
